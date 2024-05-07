@@ -7,13 +7,14 @@ const About = () => {
 
   const fetchData = async () => {
     try {
-      const data = await axios("http://localhost:8080/api/v1/portfolio/about");
+      const data = await axios(`${import.meta.env.VITE_URL}/api/v1/portfolio/about`);
+      console.log(data.data.data,"123",`${import.meta.env.VITE_URL}/api/v1/portfolio/about`)
       setAbout(data.data.data);
     } catch (error) {
       console.log(error)
     }
   };
-
+  console.log(about,"about123")
   useEffect(() => {
     fetchData();
   }, []);

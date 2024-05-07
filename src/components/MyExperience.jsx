@@ -11,7 +11,7 @@ const MyExperience = () => {
 
   const fetchData = async () => {
     try {
-      const data = await axios("http://localhost:8080/api/v1/portfolio/experience");
+      const data = await axios(`${import.meta.env.VITE_URL}/api/v1/portfolio/experience`);
       setExperience(data.data.data);
     } catch (error) {
       console.log(error)

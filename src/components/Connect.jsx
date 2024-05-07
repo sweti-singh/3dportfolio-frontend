@@ -9,10 +9,6 @@ const Connect = () => {
 
   const pattern = /@.*\./;
 
-  const serviceId = "service_esm8jqv";
-  const templateId = "template_qp6odai";
-  const publicKey = "009rOWcEuMlSrDsmP";
-
   const handleSend = (e) => {
     e.preventDefault();
 
@@ -21,9 +17,9 @@ const Connect = () => {
       return
     }
     const data = {
-      service_id: serviceId,
-      template_id: templateId,
-      user_id: publicKey,
+      service_id: import.meta.env.VITE_serviceId,
+      template_id: import.meta.env.VITE_templateId,
+      user_id: import.meta.env.VITE_publicKey,
       template_params: {
         from_name: name,
         from_email: email,

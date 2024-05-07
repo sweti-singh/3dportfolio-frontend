@@ -24,7 +24,7 @@ const ParallaxComponent = () => {
       <Parallax pages={5} style={{ left: 0 }} ref={parallaxRef} >
       <ParallaxLayer offset={0} sticky={{ start: 0, end: 4 }} style={{position:"absolute", opacity:'0.5', zIndex:'-2'}}>
           <div>
-            <img src="../../public/stars.jpg" style={{objectFit:"cover"}}/>
+            <img src="/stars.jpg" style={{objectFit:"cover"}}/>
           </div>
         </ParallaxLayer>
 
@@ -51,19 +51,19 @@ const ParallaxComponent = () => {
 
         <ParallaxLayer offset={0} speed={0.01}>
           <div className="vines1">
-            <img src="../public/vines.png" />
+            <img src="/vines.png" />
           </div>
           <div className="vines2">
-            <img src="../public/vines.png" />
+            <img src="/vines.png" />
           </div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={0.45}>
           <div className="bushes1">
-            <img src="../public/cartoon-bush.webp" />
+            <img src="/cartoon-bush.webp" />
           </div>
           <div className="bushes2">
-            <img src="../public/cartoon-bush.webp" />
+            <img src="/cartoon-bush.webp" />
           </div>
         </ParallaxLayer>
         {/* <ParallaxLayer offset={0} speed={2.5}>

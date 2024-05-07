@@ -8,7 +8,7 @@ const Projects = () => {
 
   const fetchData = async () => {
     try {
-      const data = await axios("http://localhost:8080/api/v1/portfolio/project");
+      const data = await axios(`${import.meta.env.VITE_URL}/api/v1/portfolio/project`);
       console.log(data)
       setProject(data.data.data);
     } catch (error) {
