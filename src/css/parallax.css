@@ -1,0 +1,55 @@
+.image-container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .bushes1 img{
+    left: 0;
+    position: absolute;
+    object-fit: contain;
+    bottom: 0;
+  }
+
+  .bushes2 img{
+    right: 0;
+    position: absolute;
+    object-fit: contain;
+    bottom: 0;
+  }
+
+  /* .vines-container{
+   height: fit-content;
+  } */
+/* .vines{
+
+} */
+  .vines1 img{
+    width: 50%;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    z-index: 100;
+  }
+
+  .vines2 img{
+    width: 50%;
+    position: absolute;
+    object-fit: contain;
+    right: 0;
+    top: 0;
+  }
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+
+  }
+
+
+  @media screen and (max-width:912px) {
+    .canvas-container{
+      display: none;
+    }
+  }

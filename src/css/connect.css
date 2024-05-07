@@ -1,0 +1,120 @@
+.connect-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    flex-direction: column;
+}
+
+.connect-container p{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+    /* margin: 2rem 7rem 2rem 1rem; */
+}
+
+
+
+.form-container label{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+
+.input-style{
+    width: 40rem; /* adjust width as needed */
+    height: 4rem; /* adjust height as needed */
+    border: 2px solid white; /* white border */
+    border-radius: 20px; /* rounded corners */
+    background-color: transparent; /* transparent background */
+    padding: 1rem; /* adjust padding as needed */
+    color: yellow !important; /* text color */ 
+    margin-bottom: 2rem; 
+}
+
+.textarea-style{
+    width: 40rem; /* adjust width as needed */
+    height: 15rem; /* adjust height as needed */
+    border: 2px solid rgb(255, 255, 255); /* white border */
+    border-radius: 20px; /* rounded corners */
+    background-color: transparent; /* transparent background */
+    padding: 1rem; /* adjust padding as needed */
+    color: yellow !important; /* text color */
+    margin-bottom: 2rem;
+}
+
+.form-container button{
+    font-size: 2rem;
+    font-family: 'Roboto';
+    padding: 1rem;
+    color: white;
+    background-color: #00bfff;
+    width: 10rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgba(185, 185, 199, 0.5);
+    margin: auto auto;
+}
+
+@media screen and (max-width:550px) {
+ 
+    .form-container{
+       padding: 2rem;
+        /* margin: 2rem 7rem 2rem 1rem; */
+    }
+
+    .input-style{
+        width: 30rem; /* adjust width as needed */
+        height: 4rem; /* adjust height as needed */
+    }
+    .textarea-style{
+        width: 30rem; /* adjust width as needed */
+        height: 20rem; /* adjust height as needed */
+    }
+   }
+
+   @media screen and (max-width:376px) {
+    .connect-container{
+        position: relative;
+        top: 25vh;
+      
+    }
+    .form-container{
+       padding: 1.5rem;
+        /* margin: 2rem 7rem 2rem 1rem; */
+    }
+
+    .input-style{
+        width: 25rem; /* adjust width as needed */
+        height: 4rem; /* adjust height as needed */
+    }
+    .textarea-style{
+        width: 25rem; /* adjust width as needed */
+        height: 20rem; /* adjust height as needed */
+    }
+    .connect-container p{
+        font-weight: 500;
+        font-size: 3rem;
+    }
+   }
+
+   @media screen and (max-width:300px) {
+
+    .connect-container{
+        position: relative;
+        top: 80vh;
+    
+    }
+
+  
+   }

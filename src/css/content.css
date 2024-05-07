@@ -1,0 +1,91 @@
+.typewriter-content{
+  margin-top: 20rem;
+  margin-left: 5rem;
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 3rem;
+  color:rgb(213, 211, 211);
+}
+
+.typewriter-content p{
+    color:white;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 0.5rem #808080;
+  }
+
+
+.content-container{
+    width: 50vw;
+    display: flex;
+    }
+
+    @media screen and (max-width:912px) {
+      .content-container{
+        width: 100vw;
+        margin-left: 3rem;
+        }
+
+        .typewriter-content{
+          margin-top: 20rem;
+          margin-left: 2rem;
+          font-family: 'Barlow';
+          font-weight: 700;
+          font-size: 5rem;
+          color:rgb(213, 211, 211);
+        }
+        
+        .typewriter-content p{
+            color:white;
+            font-size: 6rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 0.5rem #808080;
+          }
+    }
+
+    @media screen and (max-width:550px) {
+      .content-container{
+        width: 100vw;
+        margin-left: 2rem;
+        }
+
+        .typewriter-content{
+          padding: 0 1rem;
+          margin-top: 20rem;
+          margin-left: 2rem;
+          font-family: 'Barlow';
+          font-weight: 700;
+          font-size: 3rem;
+          color:rgb(213, 211, 211);
+        }
+        
+        .typewriter-content p{
+            color:white;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 0.5rem #808080;
+          }
+    }
+
+    @media screen and (max-width:320px) {
+      .content-container{
+        width: 100vw;
+        /* margin-left: 2rem; */
+        }
+
+        .typewriter-content{
+          margin-top: 20rem;
+          margin-left: 0rem;
+          font-family: 'Barlow';
+          font-weight: 700;
+          font-size: 5rem;
+          color:rgb(182, 241, 72);
+        }
+        
+        .typewriter-content p{
+            color:white;
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 0.5rem #808080;
+          }
+    }
